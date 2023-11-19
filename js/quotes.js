@@ -6,7 +6,7 @@ const quotes = [
         quote: "bibbidi-bobbidi-boo",
     },
     {
-        quote: "Hakuna matat",
+        quote: "Hakuna matata",
     },
     {
         quote: "오늘 피었다 지는 이름 없는 꽃과 같네",
@@ -20,4 +20,9 @@ const quotes = [
     {
         quote: "Remember, you're the one who can fill the world with sunshine.",
     }
-    ]
+    ];
+
+const quote = document.querySelector("#quote span:first-child");
+const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+quote.innerText = todaysQuote.quote;
