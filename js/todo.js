@@ -37,6 +37,7 @@ function completeToDo(event){
 
     // 변경된 ToDo 리스트를 로컬 스토리지에 저장
     saveToDos();
+
 }
 function paintToDo(newTodo){
   const li = document.createElement("li");
@@ -56,6 +57,10 @@ function paintToDo(newTodo){
   button.innerText ="X";
   button.addEventListener("click", deleteToDo);
 
+  if (newTodo.isCompleted) {
+    li.classList.add('checked');
+    checkbox.innerText = "";
+}
 
   li.appendChild(checkbox);
   li.appendChild(span);
