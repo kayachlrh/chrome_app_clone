@@ -1,5 +1,7 @@
 # 바닐라JS 크롬앱 만들기
 노마드코더 바닐라JS 강의학습
+<br/><br/>
+
 
 ## 👩🏻‍💻개발환경&기능
 <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual Studio&logoColor=white"/> / <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
@@ -13,7 +15,7 @@
 <br/><br/>
 
 
-----
+
 
 ## 💪🏻결과
 
